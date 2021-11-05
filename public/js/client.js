@@ -354,55 +354,55 @@ function setButtonsTitle() {
 
     // left buttons
     tippy(shareRoomBtn, {
-        content: 'Invite people to join',
+        content: 'Convide pessoas para participar',
         placement: 'right-start',
     });
     tippy(audioBtn, {
-        content: 'Click to audio OFF',
+        content: 'Audio ON',
         placement: 'right-start',
     });
     tippy(videoBtn, {
-        content: 'Click to video OFF',
+        content: 'Video ON',
         placement: 'right-start',
     });
     tippy(screenShareBtn, {
-        content: 'START screen sharing',
+        content: 'Compartilhar Tela',
         placement: 'right-start',
     });
     tippy(recordStreamBtn, {
-        content: 'START recording',
+        content: 'INICIAR a gravação',
         placement: 'right-start',
     });
     tippy(fullScreenBtn, {
-        content: 'VIEW full screen',
+        content: 'Tela cheia',
         placement: 'right-start',
     });
     tippy(chatRoomBtn, {
-        content: 'OPEN the chat',
+        content: 'Abrir o chat',
         placement: 'right-start',
     });
     tippy(myHandBtn, {
-        content: 'RAISE your hand',
+        content: 'Levantar a mão',
         placement: 'right-start',
     });
     tippy(whiteboardBtn, {
-        content: 'OPEN the whiteboard',
+        content: 'Quadro de desenho',
         placement: 'right-start',
     });
     tippy(fileShareBtn, {
-        content: 'SHARE the file',
+        content: 'Compartilhar arquivo',
         placement: 'right-start',
     });
     tippy(mySettingsBtn, {
-        content: 'Show settings',
+        content: 'Configurações',
         placement: 'right-start',
     });
     tippy(aboutBtn, {
-        content: 'Show about',
+        content: 'Sobre',
         placement: 'right-start',
     });
     tippy(leaveRoomBtn, {
-        content: 'Leave this room',
+        content: 'SAIR',
         placement: 'right-start',
     });
 
@@ -411,120 +411,120 @@ function setButtonsTitle() {
         content: 'Ghost theme',
     });
     tippy(msgerCPBtn, {
-        content: 'Private messages',
+        content: 'Mensagem particular',
     });
     tippy(msgerClean, {
-        content: 'Clean messages',
+        content: 'Limpar mensagens',
     });
     tippy(msgerSaveBtn, {
-        content: 'Save messages',
+        content: 'Salvar chat',
     });
     tippy(msgerClose, {
-        content: 'Close the chat',
+        content: 'Fechar chat',
     });
     tippy(msgerEmojiBtn, {
         content: 'Emoji',
     });
     tippy(msgerSendBtn, {
-        content: 'Send',
+        content: 'Enviar',
     });
 
     // settings
     tippy(mySettingsCloseBtn, {
-        content: 'Close settings',
+        content: 'Fechar configurações',
     });
     tippy(myPeerNameSetBtn, {
-        content: 'Change name',
+        content: 'Alterar nome',
     });
 
     // whiteboard btns
     tippy(wbDrawingColorEl, {
-        content: 'DRAWING color',
+        content: 'Cor',
         placement: 'bottom',
     });
     tippy(wbBackgroundColorEl, {
-        content: 'BACKGROUND color',
+        content: 'Cor de fundo',
         placement: 'bottom',
     });
     tippy(whiteboardPencilBtn, {
-        content: 'DRAWING mode',
+        content: 'Lápis',
         placement: 'bottom',
     });
     tippy(whiteboardObjectBtn, {
-        content: 'OBJECT mode',
+        content: 'Selecionar objetos',
         placement: 'bottom',
     });
     tippy(whiteboardUndoBtn, {
-        content: 'UNDO the board',
+        content: 'Desfazer',
         placement: 'bottom',
     });
     tippy(whiteboardRedoBtn, {
-        content: 'REDO the board',
+        content: 'Refazer',
         placement: 'bottom',
     });
     tippy(whiteboardImgFileBtn, {
-        content: 'ADD image from file',
+        content: 'Importar imagem',
         placement: 'bottom',
     });
     tippy(whiteboardImgUrlBtn, {
-        content: 'ADD image from URL',
+        content: 'Adicionar imagem WEB',
         placement: 'bottom',
     });
     tippy(whiteboardTextBtn, {
-        content: 'ADD the text',
+        content: 'Texto',
         placement: 'bottom',
     });
     tippy(whiteboardLineBtn, {
-        content: 'ADD the line',
+        content: 'Linha',
         placement: 'bottom',
     });
     tippy(whiteboardRectBtn, {
-        content: 'ADD the rectangle',
+        content: 'Retângulo',
         placement: 'bottom',
     });
     tippy(whiteboardCircleBtn, {
-        content: 'ADD the circle',
+        content: 'Círculo',
         placement: 'bottom',
     });
     tippy(whiteboardSaveBtn, {
-        content: 'SAVE the board',
+        content: 'Salvar',
         placement: 'bottom',
     });
     tippy(whiteboardEraserBtn, {
-        content: 'ERASE the object',
+        content: 'Apagar objeto',
         placement: 'bottom',
     });
     tippy(whiteboardCleanBtn, {
-        content: 'CLEAN the board',
+        content: 'Apagar tudo',
         placement: 'bottom',
     });
     tippy(whiteboardCloseBtn, {
-        content: 'CLOSE the board',
+        content: 'Fechar o quadro',
         placement: 'bottom',
     });
 
     // room actions btn
     tippy(muteEveryoneBtn, {
-        content: 'MUTE everyone except yourself',
+        content: 'Silenciar todos, exceto você mesmo',
         placement: 'top',
     });
     tippy(hideEveryoneBtn, {
-        content: 'HIDE everyone except yourself',
+        content: 'Ocultar todos exceto você mesmo',
         placement: 'top',
     });
 
     // Suspend File transfer btn
     tippy(sendAbortBtn, {
-        content: 'ABORT file transfer',
+        content: 'Abortar transferência de arquivo',
         placement: 'right-start',
     });
 
     // video URL player
     tippy(videoUrlCloseBtn, {
-        content: 'Close the videoPlayer',
+        content: 'Fechar video player',
     });
     tippy(msgerVideoUrlBtn, {
-        content: 'Share YouTube video to all participants',
+        content: 'Compartilhar vídeo do YouTube',
     });
 }
 
@@ -623,7 +623,7 @@ function initClientPeer() {
     setTheme(mirotalkTheme);
 
     if (!isWebRTCSupported) {
-        userLog('error', 'This browser seems not supported WebRTC!');
+        userLog('error', 'Este navegador parece não ser compatível com WebRTC!');
         return;
     }
 
@@ -685,14 +685,14 @@ function whoAreYou() {
         position: 'center',
         imageAlt: 'mirotalk-name',
         imageUrl: welcomeImg,
-        title: 'Enter your name',
+        title: 'Digite o seu nome',
         input: 'text',
         html: `<br>
         <div style="overflow: hidden;">
             <button id="initAudioBtn" class="fas fa-microphone" onclick="handleAudio(event, true)"></button>
             <button id="initVideoBtn" class="fas fa-video" onclick="handleVideo(event, true)"></button>
         </div>`,
-        confirmButtonText: `Join meeting`,
+        confirmButtonText: `Entrar`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -700,7 +700,7 @@ function whoAreYou() {
             popup: 'animate__animated animate__fadeOutUp',
         },
         inputValidator: (value) => {
-            if (!value) return 'Please enter your name';
+            if (!value) return 'Por favor, digite o seu nome';
 
             document.body.style.backgroundImage = 'none';
             myVideoWrap.style.display = 'inline';
@@ -724,11 +724,11 @@ function whoAreYou() {
     initVideoBtn = getId('initVideoBtn');
 
     tippy(initAudioBtn, {
-        content: 'Click to audio OFF',
+        content: 'Audio ON',
         placement: 'top',
     });
     tippy(initVideoBtn, {
-        content: 'Click to video OFF',
+        content: 'Video ON',
         placement: 'top',
     });
 }
@@ -765,15 +765,15 @@ function welcomeUser() {
         html:
             `
         <br/> 
-        <p style="color:white;">Share this meeting invite others to join.</p>
+        <p style="color:white;">Compartilhe esta URL com o cliente, e inicie o atendimento.</p>
         <p style="color:rgb(8, 189, 89);">` +
             myRoomUrl +
             `</p>`,
         showDenyButton: true,
         showCancelButton: true,
-        confirmButtonText: `Copy meeting URL`,
-        denyButtonText: `Email invite`,
-        cancelButtonText: `Close`,
+        confirmButtonText: `Copiar a URL da reunião`,
+        denyButtonText: `Enviar link por email`,
+        cancelButtonText: `Fechar`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -786,8 +786,8 @@ function welcomeUser() {
         } else if (result.isDenied) {
             let message = {
                 email: '',
-                subject: 'Please join our MiroTalk Video Chat Meeting',
-                body: 'Click to join: ' + myRoomUrl,
+                subject: 'Por favor, junte-se ao nosso Video Chat dormakaba - Suporte',
+                body: 'Clique para entrar: ' + myRoomUrl,
             };
             shareRoomByEmail(message);
         }
@@ -1315,25 +1315,25 @@ function loadLocalMedia(stream) {
     myHandStatusIcon.className = 'fas fa-hand-paper pulsate';
     myHandStatusIcon.style.setProperty('color', 'rgb(0, 255, 0)');
     tippy(myHandStatusIcon, {
-        content: 'My hand is RAISED',
+        content: 'Minha mão está LEVANTADA',
     });
     // my video status element
     myVideoStatusIcon.setAttribute('id', 'myVideoStatusIcon');
     myVideoStatusIcon.className = 'fas fa-video';
     tippy(myVideoStatusIcon, {
-        content: 'My video is ON',
+        content: 'Meu vídeo está ON',
     });
     // my audio status element
     myAudioStatusIcon.setAttribute('id', 'myAudioStatusIcon');
     myAudioStatusIcon.className = 'fas fa-microphone';
     tippy(myAudioStatusIcon, {
-        content: 'My audio is ON',
+        content: 'Meu audio está ON',
     });
     // my video full screen mode
     myVideoFullScreenBtn.setAttribute('id', 'myVideoFullScreenBtn');
     myVideoFullScreenBtn.className = 'fas fa-expand';
     tippy(myVideoFullScreenBtn, {
-        content: 'Full screen mode',
+        content: 'Modo tela cheia',
     });
     // my video avatar image
     myVideoAvatarImage.setAttribute('id', 'myVideoAvatarImage');
@@ -1424,7 +1424,7 @@ function loadRemoteMediaStream(stream, peers, peer_id) {
     remoteVideoParagraph.setAttribute('id', peer_id + '_name');
     remoteVideoParagraph.className = 'videoPeerName';
     tippy(remoteVideoParagraph, {
-        content: 'Participant name',
+        content: 'Nome do participante',
     });
     const peerVideoText = document.createTextNode(peers[peer_id]['peer_name']);
     remoteVideoParagraph.appendChild(peerVideoText);
@@ -1433,43 +1433,43 @@ function loadRemoteMediaStream(stream, peers, peer_id) {
     remoteHandStatusIcon.style.setProperty('color', 'rgb(0, 255, 0)');
     remoteHandStatusIcon.className = 'fas fa-hand-paper pulsate';
     tippy(remoteHandStatusIcon, {
-        content: 'Participant hand is RAISED',
+        content: 'A mão do participante está LEVANTADA',
     });
     // remote video status element
     remoteVideoStatusIcon.setAttribute('id', peer_id + '_videoStatus');
     remoteVideoStatusIcon.className = 'fas fa-video';
     tippy(remoteVideoStatusIcon, {
-        content: 'Participant video is ON',
+        content: 'O vídeo do participante está ATIVADO',
     });
     // remote audio status element
     remoteAudioStatusIcon.setAttribute('id', peer_id + '_audioStatus');
     remoteAudioStatusIcon.className = 'fas fa-microphone';
     tippy(remoteAudioStatusIcon, {
-        content: 'Participant audio is ON',
+        content: 'O audio do participante está ATIVADO',
     });
     // remote peer YouTube video
     remoteYoutubeBtnBtn.setAttribute('id', peer_id + '_youtube');
     remoteYoutubeBtnBtn.className = 'fab fa-youtube';
     tippy(remoteYoutubeBtnBtn, {
-        content: 'Send YouTube video',
+        content: 'Envie um vídeo do YouTube',
     });
     // remote private message
     remotePrivateMsgBtn.setAttribute('id', peer_id + '_privateMsg');
     remotePrivateMsgBtn.className = 'fas fa-paper-plane';
     tippy(remotePrivateMsgBtn, {
-        content: 'Send private message',
+        content: 'Enviar mensagem privada',
     });
     // remote peer kick out
     remotePeerKickOut.setAttribute('id', peer_id + '_kickOut');
     remotePeerKickOut.className = 'fas fa-sign-out-alt';
     tippy(remotePeerKickOut, {
-        content: 'Kick out',
+        content: 'Expulsar',
     });
     // remote video full screen mode
     remoteVideoFullScreenBtn.setAttribute('id', peer_id + '_fullScreen');
     remoteVideoFullScreenBtn.className = 'fas fa-expand';
     tippy(remoteVideoFullScreenBtn, {
-        content: 'Full screen mode',
+        content: 'Modo tela cheia',
     });
     // my video avatar image
     remoteVideoAvatarImage.setAttribute('id', peer_id + '_avatar');
@@ -1845,7 +1845,7 @@ function setFullScreenBtn() {
                 // only for desktop
                 if (!isMobileDevice) {
                     tippy(fullScreenBtn, {
-                        content: 'VIEW full screen',
+                        content: 'VER em tela inteira',
                         placement: 'right-start',
                     });
                 }
@@ -1892,7 +1892,7 @@ function setChatRoomBtn() {
     // show msger participants section
     msgerCPBtn.addEventListener('click', (e) => {
         if (!thereIsPeerConnections()) {
-            userLog('info', 'No participants detected');
+            userLog('info', 'Nenhum participante detectado');
             return;
         }
         msgerCP.style.display = 'flex';
@@ -1914,7 +1914,7 @@ function setChatRoomBtn() {
             downloadChatMsgs();
             return;
         }
-        userLog('info', 'No chat messages to save');
+        userLog('info', 'Nenhuma mensagem de bate-papo para salvar');
     });
 
     // close chat room - show left button and status menu if hide
@@ -2308,7 +2308,7 @@ function setLocalMaxFps(maxFrameRate) {
         })
         .catch((err) => {
             console.error('setLocalMaxFps', err);
-            userLog('error', "Your device doesn't support the selected fps, please select the another one.");
+            userLog('error', "Seu dispositivo não suporta o fps selecionado, escolha outro.");
         });
 }
 
@@ -2325,7 +2325,7 @@ function setLocalVideoQuality() {
         })
         .catch((err) => {
             console.error('setLocalVideoQuality', err);
-            userLog('error', "Your device doesn't support the selected video quality, please select the another one.");
+            userLog('error', "Seu dispositivo não suporta a qualidade de vídeo selecionada, escolha outra.");
         });
 }
 
@@ -2352,13 +2352,13 @@ function attachSinkId(element, sinkId) {
             .catch((err) => {
                 let errorMessage = err;
                 if (err.name === 'SecurityError')
-                    errorMessage = `You need to use HTTPS for selecting audio output device: ${err}`;
+                    errorMessage = `Você precisa usar HTTPS para selecionar o dispositivo de saída de áudio: ${err}`;
                 console.error(errorMessage);
                 // Jump back to first output device in the list as it's the default.
                 audioOutputSelect.selectedIndex = 0;
             });
     } else {
-        console.warn('Browser does not support output device selection.');
+        console.warn('O navegador não suporta a seleção do dispositivo de saída.');
     }
 }
 
@@ -2400,12 +2400,12 @@ function gotDevices(deviceInfos) {
 
         switch (deviceInfo.kind) {
             case 'videoinput':
-                option.text = `📹 ` + deviceInfo.label || `📹 camera ${videoSelect.length + 1}`;
+                option.text = `📹 ` + deviceInfo.label || `📹 câmera ${videoSelect.length + 1}`;
                 videoSelect.appendChild(option);
                 break;
 
             case 'audioinput':
-                option.text = `🎤 ` + deviceInfo.label || `🎤 microphone ${audioInputSelect.length + 1}`;
+                option.text = `🎤 ` + deviceInfo.label || `🎤 microfone ${audioInputSelect.length + 1}`;
                 audioInputSelect.appendChild(option);
                 break;
 
@@ -2436,7 +2436,7 @@ function handleError(err) {
         case 'OverconstrainedError':
             userLog(
                 'error',
-                "GetUserMedia: Your device doesn't support the selected video quality or fps, please select the another one.",
+                "GetUserMedia: Seu dispositivo não suporta a qualidade de vídeo ou fps selecionada, escolha outro.",
             );
             break;
         default:
@@ -2489,7 +2489,7 @@ async function shareRoomUrl() {
         try {
             // not add title and description to load metadata from url
             await navigator.share({ url: myRoomUrl });
-            userLog('toast', 'Room Shared successfully!');
+            userLog('toast', 'Sala compartilhada com sucesso!');
         } catch (err) {
             errorNavigatorShare = true;
             /*
@@ -2516,15 +2516,15 @@ async function shareRoomUrl() {
                 <canvas id="qrRoom"></canvas>
             </div>
             <br/><br/>
-            <p style="color:white;"> Share this meeting invite others to join.</p>
+            <p style="color:white;"> Compartilhe esta reunião, convide outras pessoas para participar.</p>
             <p style="color:rgb(8, 189, 89);">` +
                 myRoomUrl +
                 `</p>`,
             showDenyButton: true,
             showCancelButton: true,
-            confirmButtonText: `Copy meeting URL`,
-            denyButtonText: `Email invite`,
-            cancelButtonText: `Close`,
+            confirmButtonText: `Copiar o URL da reunião`,
+            denyButtonText: `Convidar por email`,
+            cancelButtonText: `Fechar`,
             showClass: {
                 popup: 'animate__animated animate__fadeInDown',
             },
@@ -2537,8 +2537,8 @@ async function shareRoomUrl() {
             } else if (result.isDenied) {
                 let message = {
                     email: '',
-                    subject: 'Please join our MiroTalk Video Chat Meeting',
-                    body: 'Click to join: ' + myRoomUrl,
+                    subject: 'Por favor, junte-se ao nosso Video Chat dormakaba - Suporte',
+                    body: 'Clique para entrar: ' + myRoomUrl,
                 };
                 shareRoomByEmail(message);
             }
@@ -2574,7 +2574,7 @@ function copyRoomURL() {
     navigator.clipboard.writeText(tmpInput.value);
     console.log('Copied to clipboard Join Link ', roomURL);
     document.body.removeChild(tmpInput);
-    userLog('toast', 'Meeting URL is copied to clipboard 👍');
+    userLog('toast', 'URL da reunião copiado para a área de transferência 👍');
 }
 
 /**
@@ -2602,7 +2602,7 @@ function handleAudio(e, init) {
         audioBtn.className = 'fas fa-microphone' + (myAudioStatus ? '' : '-slash');
         if (!isMobileDevice) {
             tippy(initAudioBtn, {
-                content: myAudioStatus ? 'Click to audio OFF' : 'Click to audio ON',
+                content: myAudioStatus ? 'Audio ON' : 'Audio OFF',
                 placement: 'top',
             });
         }
@@ -2624,7 +2624,7 @@ function handleVideo(e, init) {
         videoBtn.className = 'fas fa-video' + (myVideoStatus ? '' : '-slash');
         if (!isMobileDevice) {
             tippy(initVideoBtn, {
-                content: myVideoStatus ? 'Click to video OFF' : 'Click to video ON',
+                content: myVideoStatus ? 'Video ON' : 'Video OFF',
                 placement: 'top',
             });
         }
@@ -2655,7 +2655,7 @@ function swapCamera() {
         })
         .catch((err) => {
             console.log('[Error] to swaping camera', err);
-            userLog('error', 'Error to swaping the camera ' + err);
+            userLog('error', 'Erro ao trocar a câmera ' + err);
             // https://blog.addpipe.com/common-getusermedia-errors/
         });
 }
@@ -2705,7 +2705,7 @@ function toggleScreenSharing() {
         })
         .catch((err) => {
             console.error('[Error] Unable to share the screen', err);
-            userLog('error', 'Unable to share the screen ' + err);
+            userLog('error', 'Não é possível compartilhar a tela ' + err);
         });
 }
 
@@ -2718,7 +2718,7 @@ function setScreenSharingStatus(status) {
     // only for desktop
     if (!isMobileDevice) {
         tippy(screenShareBtn, {
-            content: status ? 'STOP screen sharing' : 'START screen sharing',
+            content: status ? 'PARAR o compartilhamento de tela' : 'INICIAR o compartilhamento de tela',
             placement: 'right-start',
         });
     }
@@ -2739,7 +2739,7 @@ function setMyVideoStatusTrue() {
     // only for desktop
     if (!isMobileDevice) {
         tippy(videoBtn, {
-            content: 'Click to video OFF',
+            content: 'Video ON',
             placement: 'right-start',
         });
     }
@@ -2764,7 +2764,7 @@ function toggleFullScreen() {
     // only for desktop
     if (!isMobileDevice) {
         tippy(fullScreenBtn, {
-            content: isDocumentOnFullScreen ? 'EXIT full screen' : 'VIEW full screen',
+            content: isDocumentOnFullScreen ? 'SAIR da tela cheia' : 'VER em tela cheia',
             placement: 'right-start',
         });
     }
@@ -2910,12 +2910,12 @@ function startStreamRecording() {
                 })
                 .catch((err) => {
                     console.error('[Error] Unable to recording the screen + audio', err);
-                    userLog('error', 'Unable to recording the screen + audio ' + err);
+                    userLog('error', 'Incapaz de gravar a tela + áudio ' + err);
                 });
         }
     } catch (err) {
         console.error('Exception while creating MediaRecorder: ', err);
-        userLog('error', "Can't start stream recording: " + err);
+        userLog('error', "Não é possível iniciar a gravação: " + err);
         return;
     }
 }
@@ -2926,7 +2926,7 @@ function startStreamRecording() {
  * @param {*} action Started Stopped
  */
 function notifyRecording(from, action) {
-    let msg = '[ 🔴 REC ] : ' + action + ' to recording his own screen and audio';
+    let msg = '[ 🔴 REC ] : ' + action + ' para gravar sua própria tela e áudio';
     let chatMessage = {
         from: from,
         to: myPeerName,
@@ -2965,7 +2965,7 @@ function handleMediaRecorderStart(event) {
     // only for desktop
     if (!isMobileDevice) {
         tippy(recordStreamBtn, {
-            content: 'STOP recording',
+            content: 'Parar gravação',
             placement: 'right-start',
         });
     } else {
@@ -3005,7 +3005,7 @@ function handleMediaRecorderStop(event) {
     // only for desktop
     if (!isMobileDevice) {
         tippy(recordStreamBtn, {
-            content: 'START recording',
+            content: 'INICIAR gravação',
             placement: 'right-start',
         });
     } else {
@@ -3044,13 +3044,13 @@ function downloadRecordedStream() {
                 🔴 Recording Info <br/>
                 FILE: ${recFileName} <br/>
                 SIZE: ${blobFileSize} <br/>
-                Please wait to be processed, then will be downloaded to your ${currentDevice} device.
+                Aguarde para ser processado e o download será feito em seu  dispositivo ${currentDevice}.
             </div>`,
         );
 
         saveBlobToFile(blob, recFileName);
     } catch (err) {
-        userLog('error', 'Recording save failed: ' + err);
+        userLog('error', 'A gravação falhou: ' + err);
     }
 }
 
@@ -3095,7 +3095,7 @@ function showChatRoomDraggable() {
     // only for desktop
     if (!isMobileDevice) {
         tippy(chatRoomBtn, {
-            content: 'CLOSE the chat',
+            content: 'FECHAR o chat',
             placement: 'right-start',
         });
     }
@@ -3108,11 +3108,11 @@ function cleanMessages() {
     Swal.fire({
         background: swalBackground,
         position: 'center',
-        title: 'Clean up chat Messages?',
+        title: 'Apagar mensagens do chat?',
         imageUrl: deleteImg,
         showDenyButton: true,
-        confirmButtonText: `Yes`,
-        denyButtonText: `No`,
+        confirmButtonText: `Sim`,
+        denyButtonText: `Não`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -3145,7 +3145,7 @@ function hideChatRoomAndEmojiPicker() {
     // only for desktop
     if (!isMobileDevice) {
         tippy(chatRoomBtn, {
-            content: 'OPEN the chat',
+            content: 'Abrir chat',
             placement: 'right-start',
         });
     }
@@ -3156,7 +3156,7 @@ function hideChatRoomAndEmojiPicker() {
  */
 function sendChatMessage() {
     if (!thereIsPeerConnections()) {
-        userLog('info', "Can't send message, no participants in the room");
+        userLog('info', "Não é possível enviar mensagem, não há participantes na sala");
         msgerInput.value = '';
         return;
     }
@@ -3263,7 +3263,7 @@ function msgerAddPeers(peers) {
                         id="${peer_id}_pMsgInput"
                         class="msger-input"
                         type="text"
-                        placeholder="💬 Enter your message..."
+                        placeholder="💬 Digite sua mensagem..."
                     />
                     <button id="${peer_id}_pMsgBtn" class="fas fa-paper-plane" value="${peer_name}">&nbsp;${peer_name}</button>
                 </div>
@@ -3324,7 +3324,7 @@ function addMsgerPrivateBtn(msgerPrivateBtn, msgerPrivateMsgInput) {
         if (!pMsg) return;
         let toPeerName = msgerPrivateBtn.value;
         emitMsg(myPeerName, toPeerName, pMsg, true);
-        appendMessage(myPeerName, rightChatAvatar, 'right', pMsg + '<br/><hr>Private message to ' + toPeerName, true);
+        appendMessage(myPeerName, rightChatAvatar, 'right', pMsg + '<br/><hr>Mensagem privada para ' + toPeerName, true);
         msgerPrivateMsgInput.value = '';
         msgerCP.style.display = 'none';
     });
@@ -3483,7 +3483,7 @@ function updateMyPeerName() {
 
     setPeerAvatarImgName('myVideoAvatarImage', myPeerName);
     setPeerChatAvatarImgName('right', myPeerName);
-    userLog('toast', 'My name changed to ' + myPeerName);
+    userLog('toast', 'Meu nome mudou para ' + myPeerName);
 }
 
 /**
@@ -3528,7 +3528,7 @@ function setMyHandStatus() {
         myHandStatus = false;
         if (!isMobileDevice) {
             tippy(myHandBtn, {
-                content: 'RAISE your hand',
+                content: 'Levante sua mão',
                 placement: 'right-start',
             });
         }
@@ -3537,7 +3537,7 @@ function setMyHandStatus() {
         myHandStatus = true;
         if (!isMobileDevice) {
             tippy(myHandBtn, {
-                content: 'LOWER your hand',
+                content: 'Abaixe sua mão',
                 placement: 'right-start',
             });
         }
@@ -3556,13 +3556,13 @@ function setMyAudioStatus(status) {
     // send my audio status to all peers in the room
     emitPeerStatus('audio', status);
     tippy(myAudioStatusIcon, {
-        content: status ? 'My audio is ON' : 'My audio is OFF',
+        content: status ? 'Meu áudio está ON' : 'Meu áudio está OFF',
     });
     status ? playSound('on') : playSound('off');
     // only for desktop
     if (!isMobileDevice) {
         tippy(audioBtn, {
-            content: status ? 'Click to audio OFF' : 'Click to audio ON',
+            content: status ? 'Audio ON' : 'Audio OFF',
             placement: 'right-start',
         });
     }
@@ -3579,13 +3579,13 @@ function setMyVideoStatus(status) {
     // send my video status to all peers in the room
     emitPeerStatus('video', status);
     tippy(myVideoStatusIcon, {
-        content: status ? 'My video is ON' : 'My video is OFF',
+        content: status ? 'Meu vídeo está ON' : 'Meu vídeo está OFF',
     });
     status ? playSound('on') : playSound('off');
     // only for desktop
     if (!isMobileDevice) {
         tippy(videoBtn, {
-            content: status ? 'Click to video OFF' : 'Click to video ON',
+            content: status ? 'Video ON' : 'Video OFF',
             placement: 'right-start',
         });
     }
@@ -3625,7 +3625,7 @@ function setPeerHandStatus(peer_id, peer_name, status) {
     let peerHandStatus = getId(peer_id + '_handStatus');
     peerHandStatus.style.display = status ? 'block' : 'none';
     if (status) {
-        userLog('toast', peer_name + ' has raised the hand');
+        userLog('toast', peer_name + ' levantou a mão');
         playSound('raiseHand');
     }
 }
@@ -3639,7 +3639,7 @@ function setPeerAudioStatus(peer_id, status) {
     let peerAudioStatus = getId(peer_id + '_audioStatus');
     peerAudioStatus.className = 'fas fa-microphone' + (status ? '' : '-slash');
     tippy(peerAudioStatus, {
-        content: status ? 'Participant audio is ON' : 'Participant audio is OFF',
+        content: status ? 'O audio do participante está ATIVADO' : 'O audio do participante está DESATIVADO',
     });
     status ? playSound('on') : playSound('off');
 }
@@ -3679,10 +3679,10 @@ function handlePeerPrivateMsg(peer_id, toPeerName) {
             background: swalBackground,
             position: 'center',
             imageUrl: messageImg,
-            title: 'Send private message',
+            title: 'Enviar mensagem privada',
             input: 'text',
             showCancelButton: true,
-            confirmButtonText: `Send`,
+            confirmButtonText: `Enviar`,
             showClass: {
                 popup: 'animate__animated animate__fadeInDown',
             },
@@ -3697,10 +3697,10 @@ function handlePeerPrivateMsg(peer_id, toPeerName) {
                     myPeerName,
                     rightChatAvatar,
                     'right',
-                    pMsg + '<br/><hr>Private message to ' + toPeerName,
+                    pMsg + '<br/><hr>Mensagem privada para ' + toPeerName,
                     true,
                 );
-                userLog('toast', 'Message sent to ' + toPeerName + ' 👍');
+                userLog('toast', 'Mensagem enviada para ' + toPeerName + ' 👍');
             }
         });
     };
@@ -3728,7 +3728,7 @@ function setPeerVideoStatus(peer_id, status) {
     peerVideoStatus.className = 'fas fa-video' + (status ? '' : '-slash');
     peerVideoAvatarImage.style.display = status ? 'none' : 'block';
     tippy(peerVideoStatus, {
-        content: status ? 'Participant video is ON' : 'Participant video is OFF',
+        content: status ? 'O vídeo do participante está ATIVADO' : 'O vídeo do participante está DESATIVADO',
     });
     status ? playSound('on') : playSound('off');
 }
@@ -3797,7 +3797,7 @@ function setMyAudioOff(peer_name) {
     myAudioStatus = localMediaStream.getAudioTracks()[0].enabled;
     audioBtn.className = 'fas fa-microphone-slash';
     setMyAudioStatus(myAudioStatus);
-    userLog('toast', peer_name + ' has disabled your audio');
+    userLog('toast', peer_name + ' desabilitou seu áudio');
     playSound('off');
 }
 
@@ -3810,7 +3810,7 @@ function setMyVideoOff(peer_name) {
     myVideoStatus = localMediaStream.getVideoTracks()[0].enabled;
     videoBtn.className = 'fas fa-video-slash';
     setMyVideoStatus(myVideoStatus);
-    userLog('toast', peer_name + ' has disabled your video');
+    userLog('toast', peer_name + ' desabilitou seu vídeo');
     playSound('off');
 }
 
@@ -3820,21 +3820,21 @@ function setMyVideoOff(peer_name) {
  */
 function disableAllPeers(element) {
     if (!thereIsPeerConnections()) {
-        userLog('info', 'No participants detected');
+        userLog('info', 'Nenhum participante detectado');
         return;
     }
     Swal.fire({
         background: swalBackground,
         position: 'center',
         imageUrl: element == 'audio' ? audioOffImg : camOffImg,
-        title: element == 'audio' ? 'Mute everyone except yourself?' : 'Hide everyone except yourself?',
+        title: element == 'audio' ? 'Silenciar todos, exceto você?' : 'Ocultar todos, exceto você?',
         text:
             element == 'audio'
-                ? "Once muted, you won't be able to unmute them, but they can unmute themselves at any time."
-                : "Once hided, you won't be able to unhide them, but they can unhide themselves at any time.",
+                ? "Depois de silenciado, você não poderá ativá-los, mas eles podem reativá-los a qualquer momento."
+                : "Uma vez escondidos, você não será capaz de revelá-los, mas eles podem se revelar a qualquer momento.",
         showDenyButton: true,
-        confirmButtonText: element == 'audio' ? `Mute` : `Hide`,
-        denyButtonText: `Cancel`,
+        confirmButtonText: element == 'audio' ? `Silenciar` : `Ocultar`,
+        denyButtonText: `Cancelar`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -3845,11 +3845,11 @@ function disableAllPeers(element) {
         if (result.isConfirmed) {
             switch (element) {
                 case 'audio':
-                    userLog('toast', 'Mute everyone 👍');
+                    userLog('toast', 'Silenciar todos 👍');
                     emitPeersAction('muteAudio');
                     break;
                 case 'video':
-                    userLog('toast', 'Hide everyone 👍');
+                    userLog('toast', 'Ocultar todos 👍');
                     emitPeersAction('hideVideo');
                     break;
             }
@@ -3864,21 +3864,21 @@ function disableAllPeers(element) {
  */
 function disablePeer(peer_id, element) {
     if (!thereIsPeerConnections()) {
-        userLog('info', 'No participants detected');
+        userLog('info', 'Nenhum participante detectado');
         return;
     }
     Swal.fire({
         background: swalBackground,
         position: 'center',
         imageUrl: element == 'audio' ? audioOffImg : camOffImg,
-        title: element == 'audio' ? 'Mute this participant?' : 'Hide this participant?',
+        title: element == 'audio' ? 'Silenciar este participante?' : 'Ocultar este participante?',
         text:
             element == 'audio'
-                ? "Once muted, you won't be able to unmute them, but they can unmute themselves at any time."
-                : "Once hided, you won't be able to unhide them, but they can unhide themselves at any time.",
+                ? "Depois de silenciado, você não poderá ativá-los, mas eles podem reativá-los a qualquer momento."
+                : "Uma vez escondidos, você não será capaz de revelá-los, mas eles podem se revelar a qualquer momento.",
         showDenyButton: true,
-        confirmButtonText: element == 'audio' ? `Mute` : `Hide`,
-        denyButtonText: `Cancel`,
+        confirmButtonText: element == 'audio' ? `Silenciar` : `Ocultar`,
+        denyButtonText: `Cancelar`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -3889,11 +3889,11 @@ function disablePeer(peer_id, element) {
         if (result.isConfirmed) {
             switch (element) {
                 case 'audio':
-                    userLog('toast', 'Mute audio 👍');
+                    userLog('toast', 'Silenciar áudio 👍');
                     emitPeerAction(peer_id, 'muteAudio');
                     break;
                 case 'video':
-                    userLog('toast', 'Hide video 👍');
+                    userLog('toast', 'Ocultar vídeo 👍');
                     emitPeerAction(peer_id, 'hideVideo');
                     break;
             }
@@ -3921,7 +3921,7 @@ function lockUnlockRoom() {
  * Refresh Room Status (Locked/Unlocked)
  */
 function emitRoomStatus() {
-    let rStatus = roomLocked ? '🔒 LOCKED the room, no one can access!' : '🔓 UNLOCKED the room';
+    let rStatus = roomLocked ? '🔒 Sala BLOQUEADA, mais ninguém pode entrar!' : '🔓 Sala DESBLOQUEADA.';
     userLog('toast', rStatus);
 
     sendToServer('roomStatus', {
@@ -3940,7 +3940,7 @@ function handleRoomStatus(config) {
     let room_locked = config.room_locked;
     roomLocked = room_locked;
     lockUnlockRoomBtn.className = roomLocked ? 'fas fa-lock' : 'fas fa-lock-open';
-    userLog('toast', peer_name + ' set room is locked to ' + roomLocked);
+    userLog('toast', peer_name + ' a sala está bloqueada para ' + roomLocked);
 }
 
 /**
@@ -3954,8 +3954,8 @@ function handleRoomLocked() {
         background: swalBackground,
         position: 'center',
         imageUrl: roomLockedImg,
-        title: 'Oops, Room Locked',
-        text: 'The room is locked, try with another one.',
+        title: 'Oops, sala BLOQUEADA',
+        text: 'eSTA sala está trancada, tente com outra.',
         showDenyButton: false,
         confirmButtonText: `Ok`,
         showClass: {
@@ -4053,6 +4053,15 @@ function whiteboardIsDrawingMode(status) {
     }
 }
 
+function transparent() {
+		if (document.documentElement.style.getPropertyValue('--wb-bg') == '#000000') {
+			document.documentElement.style.setProperty('--wb-bg', 'rgba(0, 0, 0, 0.100)');
+		}else {
+			document.documentElement.style.setProperty('--wb-bg', '#000000');
+		}
+}
+
+
 /**
  * Whiteboard: eraser
  * @param {*} status true or false
@@ -4081,10 +4090,11 @@ function whiteboardAddObj(type) {
         case 'imgUrl':
             Swal.fire({
                 background: swalBackground,
-                title: 'Image URL',
+                title: 'URL DA IMAGEM',
                 input: 'text',
                 showCancelButton: true,
                 confirmButtonText: 'OK',
+				cancelButtonText: 'Cancelar',
             }).then((result) => {
                 if (result.isConfirmed) {
                     let wbCanvasImgURL = result.value;
@@ -4093,7 +4103,7 @@ function whiteboardAddObj(type) {
                             addWbCanvasObj(myImg);
                         });
                     } else {
-                        userLog('error', 'The URL is not a valid image');
+                        userLog('error', 'A URL da imagem não é válida.');
                     }
                 }
             });
@@ -4103,15 +4113,15 @@ function whiteboardAddObj(type) {
                 allowOutsideClick: false,
                 background: swalBackground,
                 position: 'center',
-                title: 'Select the image',
+                title: 'Selecionar imagem',
                 input: 'file',
                 inputAttributes: {
                     accept: wbImageInput,
-                    'aria-label': 'Select the image',
+                    'aria-label': 'Selecionar',
                 },
                 showDenyButton: true,
                 confirmButtonText: `OK`,
-                denyButtonText: `Cancel`,
+                denyButtonText: `Cancelar`,
             }).then((result) => {
                 if (result.isConfirmed) {
                     let wbCanvasImg = result.value;
@@ -4128,7 +4138,7 @@ function whiteboardAddObj(type) {
                         };
                         reader.readAsDataURL(wbCanvasImg);
                     } else {
-                        userLog('error', 'File not selected or empty');
+                        userLog('error', 'Arquivo não selecionado ou vazio');
                     }
                 }
             });
@@ -4136,10 +4146,11 @@ function whiteboardAddObj(type) {
         case 'text':
             Swal.fire({
                 background: swalBackground,
-                title: 'Enter the text',
+                title: 'Digite o texto',
                 input: 'text',
                 showCancelButton: true,
                 confirmButtonText: 'OK',
+				cancelButtonText: 'Cancelar',
             }).then((result) => {
                 if (result.isConfirmed) {
                     let wbCanvasText = result.value;
@@ -4158,7 +4169,7 @@ function whiteboardAddObj(type) {
             });
             break;
         case 'line':
-            const line = new fabric.Line([50, 100, 200, 200], {
+            const line = new fabric.Line([50, 400, 400, 400], { //[50, 100, 200, 200]
                 top: 0,
                 left: 0,
                 fill: wbCanvas.freeDrawingBrush.color,
@@ -4251,6 +4262,9 @@ function mouseMove() {
         wbCanvas.hoverCursor = 'not-allowed';
         return;
     }
+	else {
+		wbCanvas.hoverCursor = 'move';
+	}
     if (!wbIsDrawing) return;
 }
 
@@ -4374,11 +4388,11 @@ function confirmCleanBoard() {
         background: swalBackground,
         imageUrl: deleteImg,
         position: 'center',
-        title: 'Clean the board',
-        text: 'Are you sure you want to clean the board?',
+        title: 'Limpar quadro',
+        text: 'Tem certeza que deseja limpar o quadro?',
         showDenyButton: true,
-        confirmButtonText: `Yes`,
-        denyButtonText: `No`,
+        confirmButtonText: `Sim`,
+        denyButtonText: `Não`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -4473,13 +4487,13 @@ function sendFileData() {
     sendInProgress = true;
 
     sendFileInfo.innerHTML =
-        'File name: ' +
+        'Nome do Arquivo: ' +
         fileToSend.name +
         '<br>' +
-        'File type: ' +
+        'Tipo: ' +
         fileToSend.type +
         '<br>' +
-        'File size: ' +
+        'Tamanho: ' +
         bytesToSize(fileToSend.size) +
         '<br>';
 
@@ -4504,7 +4518,7 @@ function sendFileData() {
         if (offset === fileToSend.size) {
             sendInProgress = false;
             sendFileDiv.style.display = 'none';
-            userLog('success', 'The file ' + fileToSend.name + ' was sent successfully.');
+            userLog('success', 'O arquivo ' + fileToSend.name + ' foi transmitido com sucesso.');
         }
 
         if (offset < fileToSend.size) readSlice(offset);
@@ -4548,8 +4562,8 @@ function handleFileAbort() {
     receiveBuffer = [];
     incomingFileData = [];
     receivedSize = 0;
-    console.log('File transfer aborted');
-    userLog('toast', '⚠️ File transfer aborted');
+    console.log('Transferência de arquivo abortada');
+    userLog('toast', '⚠️ Transferência de arquivo abortada');
 }
 
 /**
@@ -4564,15 +4578,15 @@ function selectFileToShare() {
         imageAlt: 'mirotalk-file-sharing',
         imageUrl: fileSharingImg,
         position: 'center',
-        title: 'Share the file',
+        title: 'Compartilhar um arquivo',
         input: 'file',
         inputAttributes: {
             accept: fileSharingInput,
-            'aria-label': 'Select the file',
+            'aria-label': 'Selecione o arquivo',
         },
         showDenyButton: true,
-        confirmButtonText: `Send`,
-        denyButtonText: `Cancel`,
+        confirmButtonText: `Enviar`,
+        denyButtonText: `Cancelar`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -4585,7 +4599,7 @@ function selectFileToShare() {
             if (fileToSend && fileToSend.size > 0) {
                 // no peers in the room
                 if (!thereIsPeerConnections()) {
-                    userLog('info', 'No participants detected');
+                    userLog('info', 'Nenhum participante detectado');
                     return;
                 }
                 // send some metadata about our file to peers in the room
@@ -4603,7 +4617,7 @@ function selectFileToShare() {
                     sendFileData();
                 }, 1000);
             } else {
-                userLog('error', 'File not selected or empty.');
+                userLog('error', 'Arquivo não selecionado ou vazio.');
             }
         }
     });
@@ -4619,16 +4633,16 @@ function handleFileInfo(config) {
     receiveBuffer = [];
     receivedSize = 0;
     let fileToReceiveInfo =
-        ' From: ' +
+        ' De: ' +
         incomingFileInfo.peerName +
         '\n' +
-        ' incoming file: ' +
+        ' arquivo recebido: ' +
         incomingFileInfo.fileName +
         '\n' +
-        ' size: ' +
+        ' tamanho: ' +
         bytesToSize(incomingFileInfo.fileSize) +
         '\n' +
-        ' type: ' +
+        ' tipo: ' +
         incomingFileInfo.fileType;
     console.log(fileToReceiveInfo);
     userLog('toast', fileToReceiveInfo);
@@ -4655,13 +4669,13 @@ function endDownload() {
                 allowOutsideClick: false,
                 background: swalBackground,
                 position: 'center',
-                title: 'Received file',
-                text: incomingFileInfo.fileName + ' size ' + bytesToSize(incomingFileInfo.fileSize),
+                title: 'Arquivo recebido',
+                text: incomingFileInfo.fileName + ' tamanho ' + bytesToSize(incomingFileInfo.fileSize),
                 imageUrl: e.target.result,
                 imageAlt: 'mirotalk-file-img-download',
                 showDenyButton: true,
-                confirmButtonText: `Save`,
-                denyButtonText: `Cancel`,
+                confirmButtonText: `Salvar`,
+                denyButtonText: `Cancelar`,
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown',
                 },
@@ -4682,11 +4696,11 @@ function endDownload() {
             imageAlt: 'mirotalk-file-download',
             imageUrl: fileSharingImg,
             position: 'center',
-            title: 'Received file',
-            text: incomingFileInfo.fileName + ' size ' + bytesToSize(incomingFileInfo.fileSize),
+            title: 'Arquivo recebido',
+            text: incomingFileInfo.fileName + ' tamanho ' + bytesToSize(incomingFileInfo.fileSize),
             showDenyButton: true,
-            confirmButtonText: `Save`,
-            denyButtonText: `Cancel`,
+            confirmButtonText: `Salvar`,
+            denyButtonText: `Cancelar`,
             showClass: {
                 popup: 'animate__animated animate__fadeInDown',
             },
@@ -4730,11 +4744,11 @@ function sendVideoUrl(peer_id = null) {
         background: swalBackground,
         position: 'center',
         imageUrl: youtubeImg,
-        title: 'Share YouTube Video',
-        text: 'Past YouTube video URL',
+        title: 'Compartilhar vídeo do YouTube',
+        text: 'Cole o URL do vídeo',
         input: 'text',
         showCancelButton: true,
-        confirmButtonText: `Share`,
+        confirmButtonText: `Compartilhar`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -4744,7 +4758,7 @@ function sendVideoUrl(peer_id = null) {
     }).then((result) => {
         if (result.value) {
             if (!thereIsPeerConnections()) {
-                userLog('info', 'No participants detected');
+                userLog('info', 'Nenhum participante detectado');
                 return;
             }
             console.log('Video URL: ' + result.value);
@@ -4772,7 +4786,7 @@ function openVideoUrlPlayer(config) {
             videoUrlCont.style.display = 'flex';
             isVideoUrlPlayerOpen = true;
         } else {
-            userLog('error', 'Something wrong, try with another Youtube URL');
+            userLog('error', 'Algo errado, tente com outro URL do Youtube');
         }
     } else {
         // video player seems open
@@ -4826,11 +4840,11 @@ function handleVideoPlayer(config) {
     //
     switch (video_action) {
         case 'open':
-            userLog('toast', peer_name + ' open video player');
+            userLog('toast', peer_name + ' abrir video player');
             openVideoUrlPlayer(config);
             break;
         case 'close':
-            userLog('toast', peer_name + ' close video player');
+            userLog('toast', peer_name + ' fechar video player');
             closeVideoUrlPlayer();
             break;
     }
@@ -4859,11 +4873,11 @@ function kickOut(peer_id, peerKickOutBtn) {
         background: swalBackground,
         position: 'center',
         imageUrl: confirmImg,
-        title: 'Kick out ' + pName,
-        text: 'Are you sure you want to kick out this participant?',
+        title: 'Expulsar ' + pName,
+        text: 'Tem certeza de que deseja expulsar este participante?',
         showDenyButton: true,
-        confirmButtonText: `Yes`,
-        denyButtonText: `No`,
+        confirmButtonText: `Sim`,
+        denyButtonText: `Não`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -4898,12 +4912,12 @@ function handleKickedOut(config) {
         background: swalBackground,
         position: 'center',
         imageUrl: kickedOutImg,
-        title: 'Kicked out!',
+        title: 'Expulso!',
         html:
             `<h2 style="color: red;">` +
-            `User ` +
+            `Usuário ` +
             peer_name +
-            `</h2> will kick out you after <b style="color: red;"></b> milliseconds.`,
+            `</h2> está lhe removendo da sala daqui a <b style="color: red;"></b> millisegundos.`,
         timer: 10000,
         timerProgressBar: true,
         didOpen: () => {
@@ -4973,10 +4987,10 @@ function leaveRoom() {
         position: 'center',
         imageAlt: 'mirotalk-leave',
         imageUrl: leaveRoomImg,
-        title: 'Leave this room?',
+        title: 'Saia desta sala?',
         showDenyButton: true,
-        confirmButtonText: `Yes`,
-        denyButtonText: `No`,
+        confirmButtonText: `Sim`,
+        denyButtonText: `Não`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -5097,7 +5111,7 @@ function userLog(type, message) {
                 background: swalBackground,
                 position: 'center',
                 icon: 'success',
-                title: 'Success',
+                title: 'Sucesso',
                 text: message,
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown',
@@ -5112,7 +5126,7 @@ function userLog(type, message) {
                 background: swalBackground,
                 position: 'center',
                 icon: 'success',
-                title: 'Success',
+                title: 'Sucesso',
                 html: message,
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown',
